@@ -19,7 +19,7 @@ print("⏳ Precise triggers only")
 
 def check_tickets():
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-    urls = ["https://shop.royalchallengers.com", "https://www.royalchallengers.com"]
+    urls = ["https://shop.royalchallengers.com/ticket", "https://www.royalchallengers.com"]
     
     all_text = ""
     for url in urls:
